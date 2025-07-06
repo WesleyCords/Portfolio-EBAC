@@ -11,6 +11,7 @@ const EstiloGlobal = createGlobalStyle`
 
   body {
     padding: 80px 0;
+    background-color: ${(props) => props.theme.colors.bg};
 
     @media screen and (max-width: 640px) {
       padding-top: 16px;
