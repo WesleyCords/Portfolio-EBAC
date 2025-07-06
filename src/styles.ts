@@ -10,7 +10,7 @@ const EstiloGlobal = createGlobalStyle`
   }
 
   body {
-    padding-top: 80px;
+    padding: 80px 0;
 
     @media screen and (max-width: 640px) {
       padding-top: 16px;
@@ -35,9 +35,5 @@ export const Container = styled.div`
 
   @media screen and (min-width: 641px) and (max-width: 1024px) {
     max-width: 95%;
-  }
-
-  img {
-    max-width: 100%;
   }
 `
