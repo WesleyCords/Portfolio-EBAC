@@ -6,7 +6,7 @@ const Sidebar = () => (
       src="https://github.com/wesleycords.png"
       alt="Avatar do Perfil do Github"
     />
-    <Titulo> Wesley Cordeiro</Titulo>
+    <Titulo fontSize={20}> Wesley Cordeiro</Titulo>
   </aside>
 )
 
